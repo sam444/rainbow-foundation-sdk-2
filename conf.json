@@ -1,0 +1,20 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "source": {
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "plugins": [],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false,
+        "systemName"            : "Rainbow SDK",
+        "theme"                 : "cerulean",
+        "inverseNav"            : true,
+        "outputSourceFiles"     : false ,
+        "outputSourcePath"      : false
+    }
+}
